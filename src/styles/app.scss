@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy", sans-serif;
+}
+body {
+    background: rgb(204, 210, 174);
+    background: linear-gradient(
+        180deg,
+        rgb(32, 69, 95) 0%,
+        rgb(172, 198, 216) 100%
+    );
+}
+
+@import "./library";
+@import "./player";
+@import "./song";
+@import "./nav";
+h2,
+h3 {
+    color: #f0f0f1;
+}
+h3,
+h4 {
+    font-weight: 600;
+}
+button {
+    font-weight: 700;
+}
